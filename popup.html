@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="popup.js"></script>
+    <link href="popup.css" rel="stylesheet">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+<h1>Pomodoro Timer</h1>
+<p id="timer"></p>
+<label for="focusTime">Focus time
+    <input class="inputNumber" id="focusTime" min="1" type="number"> min
+</label>
+<label for="breakTime">Break time
+    <input class="inputNumber" id="breakTime" min="1" type="number"> min
+</label>
+<label for="longBreakTime">Longer break of <input class="inputNumber" id="longBreakTime" min="1" type="number"> min
+</label>
+<label for="longBreakThreshold">after
+    <input class="inputNumber" id="longBreakThreshold" min="0" type="number"> pomodoros</label>
+<label for="apiKey">Api key<input class="inputText" id="apiKey" type="password"></label>
+<label for="description">Description
+    <input class="inputText" id="description" type="text"></label>
+<button id="startButton"></button>
+<button id="stopButton"></button>
+</body>
+</html>

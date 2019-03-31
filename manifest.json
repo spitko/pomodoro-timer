@@ -1,0 +1,17 @@
+{
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "Extension to improve time management",
+  "permissions": ["storage", "alarms", "tabs", "notifications", "https://www.toggl.com/api/v8/*"],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
